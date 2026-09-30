@@ -1,0 +1,51 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+# Virtual Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Datasets (Private / Proprietary / Research Data)
+bangla-blocker-dataset/
+Raw_dataset/
+*.csv
+*.tsv
+*.parquet
+*.jsonl
+
+# Model Checkpoints and Large Weights (Hosted on Hugging Face Hub)
+hf_models/banglablocker-base/
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.onnx
+
+# Experimental execution dumps (>100MB)
+Results/
+outputs/
+*.zip
+
+# Manuscript, Review Audits & Scratch Files (Excluded for Peer-Review Anonymity & Integrity)
+secbangla_elsarticle/
+elsarticle_template/
+JISA_submission_review.md
+RESULTS_INTEGRATION_PIPELINE.md
+check_banglablocker_base.ipynb
+test_bar_labels.py
+*.pdf
